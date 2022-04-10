@@ -1,5 +1,7 @@
 # CSE 15L - Week 2 Lab Report
 
+[Back to Home Page](index.html)
+
 ## Installing VScode
 To install VScode, go to https://code.visualstudio.com/download and download the correct version for your system. After downloading and setting up the application, you should see a screen similar to the following:
 
@@ -60,3 +62,5 @@ Using the same `WhereAmI.java` as an example Java file for this purpose, we are 
 Here is what this would look like in Terminal:
 
 ![Optimized remote running](/assets/week-2-images/image7.png)
+
+[Back to Home Page](index.html)
