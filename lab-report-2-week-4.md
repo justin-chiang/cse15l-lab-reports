@@ -6,7 +6,7 @@
 Code change difference on Github:
 ![Code change for new-file-2.md](/assets/week-4-images/image1.png)
 
-Link to failure-inducing file: [new-file-2.md](https://github.com/justin-chiang/markdown-parser/blob/main/new-file-2.md)
+Link to failure-inducing file: [new-file-2.md](https://github.com/justin-chiang/markdown-parser/blob/main/new-file-2.md?plain=1)
 
 Symptom (output) of new-file-2.md as input for failing version of MarkdownParse.java:
 
@@ -24,7 +24,7 @@ The file new-file-2.md does not contain any links in the file, which causes a bu
 Code change difference on Github:
 ![Code change for new-file-3.md](/assets/week-4-images/image2.png)
 
-Link to failure-inducing file: [new-file-3.md](https://github.com/justin-chiang/markdown-parser/blob/main/new-file-3.md)
+Link to failure-inducing file: [new-file-3.md](https://github.com/justin-chiang/markdown-parser/blob/main/new-file-3.md?plain=1)
 
 Symptom (output) of new-file-3.md as input for failing version of MarkdownParse.java:
 
@@ -38,7 +38,7 @@ The file new-file-3.md contains parenthesis but not square brackets, which cause
 Code change difference on Github:
 ![Code change for new-file-4.md](/assets/week-4-images/image3.png)
 
-Link to failure-inducing file: [new-file-4.md](https://github.com/justin-chiang/markdown-parser/blob/main/new-file-4.md)
+Link to failure-inducing file: [new-file-4.md](https://github.com/justin-chiang/markdown-parser/blob/main/new-file-4.md?plain=1)
 
 Symptom (output) of new-file-4.md as input for failing version of MarkdownParse.java:
 
