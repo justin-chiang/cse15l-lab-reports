@@ -3,7 +3,7 @@
 [Back to Home Page](index.html)
 
 ## Installing VScode
-To install VScode, go to https://code.visualstudio.com/download and download the correct version for your system. After downloading and setting up the application, you should see a screen similar to the following:
+To install VScode, go to [VScode's download page](https://code.visualstudio.com/download) and download the correct version for your system. After downloading and setting up the application, you should see a screen similar to the following:
 
 ![VScode screen](/assets/week-2-images/image1.png)
 
