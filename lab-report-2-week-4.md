@@ -22,7 +22,7 @@ The file new-file-2.md does not contain any links in the file, which causes a bu
 
 ## Code Change #2: new-file-3.md
 Code change difference on Github:
-![Code change for new-file-3.md](/assets/week-4-images/image2.png)
+![Code change for new-file-3.md](/assets/week-4-images/image1.png)
 
 Link to failure-inducing file: [new-file-3.md](https://github.com/justin-chiang/markdown-parser/blob/main/new-file-3.md?plain=1)
 
