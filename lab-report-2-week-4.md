@@ -28,11 +28,11 @@ Link to failure-inducing file: [new-file-3.md](https://github.com/justin-chiang/
 
 Symptom (output) of new-file-3.md as input for failing version of MarkdownParse.java:
 
-[]
+[assets/geisel.jpg]
 
 Description:
 
-The file new-file-3.md contains parenthesis but not square brackets, which causes a bug as the index of parenthesis is dependent on the index of the square brackets, but is not applicable as square brackets do not exist in the file. The symptom of the bug is that the returned list of links is empty. To fix this, I added an if else statement to check that if square brackets do not exist, the program should only consider the indexes of the opening/closing parenthesis; otherwise, consider indexes of both parenthesis and square brackets.
+The file new-file-3.md contains an image reference instead of a link, which causes a bug as the image reference is interpreted as being a link. The symptom of the bug is that the path to the image is added to the returned list of links, when it should not be. To fix this, I added a conditional check to check if an exclamation mark comes before the opening square bracket, as that would imply that an image reference is being used and not a link. If an exclamation mark comes before the bracket, the current index is just updated to after the ending parenthesis.
 
 ## Code Change #3: new-file-4.md
 Code change difference on Github:
