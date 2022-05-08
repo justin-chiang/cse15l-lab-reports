@@ -19,14 +19,17 @@ To edit the .ssh/config file, I used the built-in nano editor to add the relevan
 
 Location of public key on Github and user account:
 ![Location of public key on Github and user account](/assets/week-6-images/part2-image1.png)
+![Location of public key on Github and user account](/assets/week-6-images/part2-image2.png)
 
 Location of private key in user account:
-![Location of private key in user account](/assets/week-6-images/part2-image2.png)
+![Location of private key in user account](/assets/week-6-images/part2-image3.png)
 
 Git commands to commit and push changes to Github on ieng6 account:
-![Git commands to commit and push changes to Github on ieng6 account](/assets/week-6-images/part2-image3.png)
+![Git commands to commit and push changes to Github on ieng6 account](/assets/week-6-images/part2-image4.png)
 
-Link for resulting commit:
+Link for resulting commit: N/A
+
+The location of the public key on my user account is under the ~/.ssh directory, and is called id_rsa.pub, and the location of it on Github is under the keys page in the user settings. The location of the private key on my user account is also under the ~/.ssh directory, and is called id_rsa. I followed the steps to set up SSH between my user account and Github by specifying the authentication in the config file, but I was still unable to push to Github from my ieng6 account. I will look into and fix this for the lab resubmission. 
 
 
 ## Copy whole directories with scp -r
@@ -39,5 +42,7 @@ Running tests on repository on ieng6 account:
 
 Combining scp and ssh in one line command:
 ![Combining scp and ssh in one line command](/assets/week-6-images/part3-image3.png)
+
+To copy over the whole markdown-parse directory to my ieng6 account, I used the scp -r command and specified the location on my ieng6 account to copy all of the files in the directory. To run tests, I used the Makefile we created in Lab 6 to automate compiling and running the tests in my tester class. However, when I tried combining scp and ssh into one line, using scp -r to transfer files and then using the Makefile to run the tests, I get an error relating to recognizing the imports used in my Java files. I will look into and fix this for the lab resubmission. 
 
 [Back to Home Page](index.html)
