@@ -43,6 +43,6 @@ Running tests on repository on ieng6 account:
 Combining scp and ssh in one line command:
 ![Combining scp and ssh in one line command](/assets/week-6-images/part3-image3.png)
 
-To copy over the whole markdown-parse directory to my ieng6 account, I used the scp -r command and specified the location on my ieng6 account to copy all of the files in the directory. To run tests, I used the Makefile we created in Lab 6 to automate compiling and running the tests in my tester class. However, when I tried combining scp and ssh into one line, using scp -r to transfer files and then using the Makefile to run the tests, I get an error relating to recognizing the imports used in my Java files. I will look into and fix this for the lab resubmission. 
+To copy over the whole markdown-parse directory to my ieng6 account, I used the scp -r command and specified the location on my ieng6 account to copy all of the files in the directory. To run tests, I used the Makefile we created in Lab 6 to automate compiling and running the tests in my tester class. To combine scp and ssh to run the tests in one line, I used scp with arguments to only copy over .java files, .md files, and the lib folder, used ssh to login to ieng6, and then compiled and ran the tester Java file.
 
 [Back to Home Page](index.html)
