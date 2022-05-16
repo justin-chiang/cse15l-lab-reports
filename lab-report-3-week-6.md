@@ -27,9 +27,9 @@ Location of private key in user account:
 Git commands to commit and push changes to Github on ieng6 account:
 ![Git commands to commit and push changes to Github on ieng6 account](/assets/week-6-images/part2-image4.png)
 
-Link for resulting commit: N/A
+[Link for resulting commit](https://github.com/justin-chiang/markdown-parser/commit/02808311e0c3d165bbc63e4cd0e2de001f65e10d)
 
-The location of the public key on my user account is under the ~/.ssh directory, and is called id_rsa.pub, and the location of it on Github is under the keys page in the user settings. The location of the private key on my user account is also under the ~/.ssh directory, and is called id_rsa. I followed the steps to set up SSH between my user account and Github by specifying the authentication in the config file, but I was still unable to push to Github from my ieng6 account. I will look into and fix this for the lab resubmission. 
+The location of the public key on my user account is under the ~/.ssh directory, and is called id_ed25519.pub, and the location of it on Github is under the keys settings page with the key specified for my Github account, justinchiang03@gmail.com. The location of the private key on my user account is also under the ~/.ssh directory, and is called id_ed25519. To make a commit and push to Github on my ieng6 account, in addition to setting up the key in Github settings, I also had to convert my remote URLs from HTTP to SSH, which I did using the git remote set-url origin command. Then, I followed the usual steps of making changes, which include modifying a file (MarkdownParse.java), then using git add, push, and commit, which was successful. 
 
 
 ## Copy whole directories with scp -r
