@@ -15,8 +15,11 @@ JUnit test for both my implementation and implementation I am reviewing (same in
 Output for my implementation:
 ![My Junit output snippet 1](assets/week-8-images/snippet1-image2.png)
 
+JUnit test for implementation I am reviewing:
+![Review JUnit test snippet 1](assets/week-8-images/snippet1-image3.png)
+
 Output for implementation I am reviewing:
-![Review Junit output snippet 1](assets/week-8-images/snippet1-image3.png)
+![Review Junit output snippet 1](assets/week-8-images/snippet1-image4.png)
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
@@ -24,14 +27,17 @@ Do you think there is a small (<10 lines) code change that will make your progra
 ## Snippet 2
 
 Snippet 2 should produce a list of the links "a.com(())" and "example.com".
-JUnit test for both my implementation and implementation I am reviewing (same in both test files):
-![JUnit test snippet 2](assets/week-8-images/snippet2-image1.png)
+JUnit test for my implementation:
+![My JUnit test snippet 2](assets/week-8-images/snippet2-image1.png)
 
 Output for my implementation:
 ![My Junit output snippet 2](assets/week-8-images/snippet2-image2.png)
 
+JUnit test for implementation I am reviewing:
+![Review JUnit test snippet 2](assets/week-8-images/snippet2-image3.png)
+
 Output for implementation I am reviewing:
-![Review Junit output snippet 2](assets/week-8-images/snippet2-image3.png)
+![Review Junit output snippet 2](assets/week-8-images/snippet2-image4.png)
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
@@ -44,8 +50,11 @@ JUnit test for both my implementation and implementation I am reviewing (same in
 Output for my implementation:
 ![My Junit output snippet 3](assets/week-8-images/snippet3-image2.png)
 
+JUnit test for implementation I am reviewing:
+![Review JUnit test snippet 3](assets/week-8-images/snippet3-image3.png)
+
 Output for implementation I am reviewing:
-![Review Junit output snippet 33](assets/week-8-images/snippet3-image3.png)
+![Review Junit output snippet 3](assets/week-8-images/snippet3-image4.png)
 
 Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
