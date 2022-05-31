@@ -2,7 +2,7 @@
 
 [Back to Home Page](index.html)
 
-Link to markdown-parse repository: [Repository Link](https://github.com/justin-chiang/markdown-parser)
+Link to my markdown-parse repository: [Repository Link](https://github.com/justin-chiang/markdown-parser)
 
 Link to repository reviewed in lab: [Repository Link](https://github.com/TheJoeship/markdown-parser-fork)
 
